@@ -1,0 +1,246 @@
+body{
+    background-color: #131313;
+}
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    background-color:yellow;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    position: absolute;
+}
+.pr{
+    text-decoration: none;
+    color: #131313;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color:#131313 ;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: rgb(132, 132, 253);
+}
+.m1{
+    position: absolute;
+    margin: 180px auto;
+    top: -90px;
+    left: 500px;
+    padding: 200px;
+}
+.m2{
+    position: absolute;
+    margin: 150px auto;
+    top: 410px;
+    left: -160px;
+    padding: 200px;
+    z-index: 2;
+}
+.m3{
+    position: absolute;
+    margin: 150px auto;
+    top: 540px;
+    left: -160px;
+    padding: 200px;
+    z-index: 2;
+}
+.m4{
+    position: absolute;
+    background-position: top;
+    height: calc(50vh);
+    z-index: 5;
+    left: 40px;
+    top: 80px;
+    box-shadow: 0 0 7px rgb(237, 237, 241);
+}
+.m4 img{
+    width: 500px;
+    height: 650px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 800;
+    margin-top: -100px;
+    padding-left: 70px;
+    color:rgb(179, 179, 245);
+}
+h2{
+    line-height: 40px;
+    color:brown;
+    font-size: 40px;
+    font-weight:bold;
+    padding-left: -50px;
+}
+h3{
+    color: rgb(137, 137, 251);
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+}
+span{
+    color: aqua;
+}
+.b{
+    font-size: 16px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight:lighter;
+}
+span{
+    color: azure;
+    display: inline-block;
+}
+.m5{
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+    background-color: rgb(164, 215, 246);
+}
+
+ul{
+    font-size: 30px;
+}
+ol{
+    font-size: 17px;
+}
+.t{
+    top: 600px;
+    left: 800px;
+}
+ .a{
+    position: relative;
+    top: 650px;
+    left: 800px;
+    width: 600px;
+    height: 234px;
+    border-style: solid;
+    border-color: red;
+    box-shadow: 0px 1px 15px 10px red;
+}
+.r{
+    position: absolute;
+    top: 960px;
+    left: 990px;
+}
+.c{
+    border: 2px;
+    border-style: solid;
+    background-color: white;
+    position: absolute;
+    top: 190px;
+    left: 75px;
+    padding: 0px 20px;
+}
+.c:hover{
+    background-color: rgb(194, 138, 247);
+}
+label{
+    color: gold;
+    font-size: 20px;
+}  
+.i1{
+    height: 50%;
+    border-radius: 50%;
+}
+.i2{
+    height: 50%;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+.i3{
+    height: 50%;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+.i4{
+    height: 50%;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+.thanks{
+    position: absolute;
+    top: 1450px;
+    left: 380px;
+    padding: 200px;
+}
+.th{
+    color:gold ;
+    font-size: 110px;
+    font-weight: lighter;
+}
+.content{
+    display: flex;
+    z-index: -2;
+}
+.q{
+    height: 255px;
+    width: 285px;
+    background-color:aliceblue;
+    position: relative;
+    filter: opacity(0.5);
+    top: 540px;
+    left: 410px;
+    filter: opacity(0.5);
+    border-radius: 20px;
+    text-align: center;
+}
+.q:hover{
+    filter: none;
+}
+.w{
+    height: 255px;
+    width: 285px;
+    background-color: aliceblue;
+    position: relative;
+    top: 540px;
+    left: 430px;
+    border-radius: 20px;
+    text-align: center;
+}
+.w:hover{
+    height: 250px;
+    width: 250px;
+}
+.u{
+    height: 255px;
+    width: 285px;
+    background-color:aliceblue;
+    position: relative;
+    top: 540px;
+    left: 450px;
+    border-radius: 20px;
+    text-align: center;
+}
+.u:hover{
+    box-shadow: 5px 5px 5px red;
+}
+.title{
+    position: relative;
+    top: 450px;
+    left: 960px;
+}
+.se{
+    font-size: 50px;
+    font-weight: bolder;
+    color:blueviolet;
+}
